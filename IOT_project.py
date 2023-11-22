@@ -4,10 +4,10 @@ import geocoder
 from twilio.rest import Client
 import speech_recognition as sr
 # Twilio credentials and phone numbers
-TWILIO_ACCOUNT_SID = 'AC28de77d0950befa74d99c343f9b48ca2'
-TWILIO_AUTH_TOKEN = 'a170fd12672490d1e8d2100752e2c36c'
-TWILIO_PHONE_NUMBER = '+17854652517'
-CONTACT_PHONE_NUMBER = '+919964300914'
+TWILIO_ACCOUNT_SID = 'xxxxxxxxxxxxxx'
+TWILIO_AUTH_TOKEN = 'xxxxxxxxxxxxx'
+TWILIO_PHONE_NUMBER = 'xxxxxxxxxx'
+CONTACT_PHONE_NUMBER = 'xxxxxxxxx'
 
 # Initialize Twilio client
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
